@@ -35,10 +35,10 @@ def get_text(lang, key):
             "tariffs": "📋 Тарифи",
             "youtube": "▶️ YouTube",
             "change_language": "🌍 Змінити мову",
-            "subscribe": "🚀 Залетай",
+            "subscribe": "🚀 Підписатися",
             "back": "⬅️ Назад",
             "iban": "💳 Оплата через IBAN",
-            "card_number": "💳 Номер банковской карты",
+            "card_number": "💳 Номер картки",
         },
         "ru": {
             "home": "🏠 Домой",
@@ -48,10 +48,10 @@ def get_text(lang, key):
             "tariffs": "📋 Тарифы",
             "youtube": "▶️ YouTube",
             "change_language": "🌍 Сменить язык",
-            "subscribe": "🚀 Залетай",
+            "subscribe": "🚀 Подписаться",
             "back": "⬅️ Назад",
             "iban": "💳 Оплата через IBAN",
-            "card_number": "💳 Номер банковской карты",
+            "card_number": "💳 Номер карты",
         },
         "en": {
             "home": "🏠 Home",
@@ -61,10 +61,10 @@ def get_text(lang, key):
             "tariffs": "📋 Tariffs",
             "youtube": "▶️ YouTube",
             "change_language": "🌍 Change Language",
-            "subscribe": "🚀 Join",
+            "subscribe": "🚀 Subscribe",
             "back": "⬅️ Back",
             "iban": "💳 Payment via IBAN",
-            "card_number": "💳 Bank Card Number",
+            "card_number": "💳 Card Number",
         },
     }
     return translations[lang].get(key, key)
